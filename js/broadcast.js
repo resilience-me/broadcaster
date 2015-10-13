@@ -9,7 +9,7 @@ function generateTx() {
         gasPrice: 10000000000000, // ?
         gasLimit: 3000000, // ?
         value: 10000000,
-        nonce: nonce, // ?
+        nonce: 0, // ?
         data: bytecode
     }
     
