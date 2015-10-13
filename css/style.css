@@ -25,3 +25,11 @@ margin-top:50px;
 margin-left:auto;
     
 }
+
+#footer
+{
+    
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
