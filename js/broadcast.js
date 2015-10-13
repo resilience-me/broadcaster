@@ -5,7 +5,7 @@ function generateTx() {
     //todo: generate transaction
     
     var rawTx = "banana"
-  $('.rawTx input').val(ratTx);
+  $('#rawTx').val(rawTx);
 
 }
 
