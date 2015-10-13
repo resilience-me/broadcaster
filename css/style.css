@@ -1,0 +1,27 @@
+body {
+	background-color: #DADAE8;
+	font-family: monospace;
+	max-width: 50em;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+#privateKey {
+    
+    width:200px;
+}
+
+
+
+#rawTx {
+    
+    width:300px;
+}
+
+
+#main {
+
+margin-top:50px;
+margin-left:auto;
+    
+}
