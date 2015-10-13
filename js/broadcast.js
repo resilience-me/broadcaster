@@ -1,5 +1,18 @@
+function generateTx() {
+
+    var bytecode = document.getElementById('bytecode').value
+    
+    //todo: generate transaction
+    
+    var rawTx = "banana"
+  $('.rawTx input').val(ratTx);
+
+}
+
 
 function broadcast() {
+    
+    
     var privateKey = document.getElementById('privateKey').value
         
          var rawTx = document.getElementById('rawTx').value
