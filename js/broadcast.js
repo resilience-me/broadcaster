@@ -14,7 +14,7 @@ function generateTx() {
     }
     
     
-  $('#rawTx').val(rawTx);
+  $('#rawTx').val(JSON.stringify(rawTx));
 
 }
 
