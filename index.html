@@ -14,12 +14,21 @@
 <body>
     
     <div id="main">
+<label for="privateKey">bytecode</label>
+<input name="privateKey" id="privateKey" type="text">
+<br><br>
+
+<button>generate rawTx</button><br><br>
+
+
+<label for="rawTx">rawTx</label>
+<input name="rawTx" placeholder="press button above" id="rawTx" type="text">
+
+<div><br><br>
     
 <label for="privateKey">privateKey</label>
 <input name="privateKey" id="privateKey" type="text">
-<label for="rawTx">rawTx</label>
-<input name="rawTx" id="rawTx" type="text">
-<div><br><br>
+
 
 <button id="broadcast_button" onclick="broadcast();" title="broadcast">Broadcast</button>
 </div>
