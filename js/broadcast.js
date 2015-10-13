@@ -3,8 +3,17 @@ function generateTx() {
     var bytecode = document.getElementById('bytecode').value
     
     //todo: generate transaction
+    // not sure how to do this. how do i calculate nonce ? and gasPrice, gasLimit ?
     
-    var rawTx = "banana"
+    var rawTx = {
+        gasPrice: 10000000000000, // ?
+        gasLimit: 3000000, // ?
+        value: 10000000,
+        nonce: nonce, // ?
+        data: bytecode
+    }
+    
+    
   $('#rawTx').val(rawTx);
 
 }
