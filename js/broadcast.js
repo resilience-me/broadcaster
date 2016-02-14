@@ -30,7 +30,7 @@ function broadcast() {
         privateKey = new Buffer(privateKey, 'hex');
        var tx = new EthTx(JSON.parse(rawTx));
        alert("hello")
-       alert(JSON.strinify(tx))
+       alert(JSON.stringify(tx))
 
        
 
