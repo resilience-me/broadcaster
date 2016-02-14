@@ -22,12 +22,12 @@ function generateTx() {
 function broadcast() {
     
     
-    var privateKey = document.getElementById('privateKey').value
         
          var rawTx = document.getElementById('rawTx').value
        var tx = new EthTx(JSON.parse(rawTx));
        alert(tx)
-        
+    var privateKey = document.getElementById('privateKey').value
+
 
         privateKey = new Buffer(privateKey, 'hex');
 
