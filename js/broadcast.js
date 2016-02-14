@@ -29,15 +29,16 @@ function broadcast() {
 
         privateKey = new Buffer(privateKey, 'hex');
        var tx = new EthTx(JSON.parse(rawTx));
-       alert("hello")
-       alert(JSON.stringify(tx))
+       alert("hex: "JSON.stringify(tx))
 
        
 
         tx.sign(privateKey);       
+       alert("signed: "JSON.stringify(tx))
 
         var serializedTx = tx.serialize().toString('hex');
-        
+       alert("serialized: "JSON.stringify(serializedTx))
+
 
      var url =   "http://api.etherscan.io/api?module=proxy&action=eth_sendRawTransaction&hex="+serializedTx
 
