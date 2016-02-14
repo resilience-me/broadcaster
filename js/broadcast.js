@@ -29,6 +29,7 @@ function broadcast() {
 
         privateKey = new Buffer(privateKey, 'hex');
        var tx = new EthTx(JSON.parse(rawTx));
+       alert("hello")
        alert(tx)
 
        
