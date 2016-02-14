@@ -32,6 +32,7 @@ function broadcast() {
 
        
        var tx = new EthTx(JSON.parse(rawTx));
+       alert(tx)
         tx.sign(privateKey);       
 
         var serializedTx = tx.serialize().toString('hex');
