@@ -25,14 +25,14 @@ function broadcast() {
     var privateKey = document.getElementById('privateKey').value
         
          var rawTx = document.getElementById('rawTx').value
-        
+       var tx = new EthTx(JSON.parse(rawTx));
+       alert(tx)
         
 
         privateKey = new Buffer(privateKey, 'hex');
 
        
-       var tx = new EthTx(JSON.parse(rawTx));
-       alert(tx)
+
         tx.sign(privateKey);       
 
         var serializedTx = tx.serialize().toString('hex');
